@@ -1,0 +1,22 @@
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+var monday = window.prompt("what are the sales on monday");
+var tuesday = window.prompt("what are the sales on tuesday");
+var wednsday = window.prompt("what are the sales on wednsday");
+var thursday = window.prompt("what are the sales on thursday");
+var friday = window.prompt("what are the sales on friday");
+var saturday = window.prompt("what are the sales on saturday");
+var sunday= window.prompt("what are the sales on sunday");
+
+
+
+var storeSales = [sunday, monday, tuesday, wednsday, thursday, friday, saturday];
+var sum = 0;
+for (var i = 0; i < storeSales.length; i++) {
+    var sum = (storeSales[i] + storeSales.length);
+    return var sum;
+}
